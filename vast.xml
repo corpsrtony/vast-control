@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="3.0">
+  <Ad id="adsterra-monetizacion">
+    <InLine>
+      <AdSystem>PlayerJS-Adsterra-System</AdSystem>
+      <AdTitle>Anuncio de Video Monetizado</AdTitle>
+      <Impression><![CDATA[]]></Impression>
+      <Creatives>
+        <Creative>
+          <Linear>
+            <!-- ⏱️ DURACIÓN: Ajusta este tiempo según lo que dure tu video (Horas:Minutos:Segundos) -->
+            <Duration>00:00:10</Duration>
+            
+            <VideoClicks>
+              <!-- 🔗 TU ENLACE MONETIZADO (Direct Link o Smartlink de Adsterra) -->
+              <!-- Nota: No borres el '[CDATA[' ni los ']]>', coloca tu link justo en el medio -->
+              <ClickThrough><![CDATA[https://www.appcreator24.com/]]></ClickThrough>
+            </VideoClicks>
+            
+            <MediaFiles>
+              <!-- 🎥 TU VIDEO PUBLICITARIO (Puedes cambiar el link de abajo por el tuyo) -->
+              <!-- Si usas MP4 deja type="video/mp4". Si usas AVI cambia a type="video/x-msvideo" -->
+              <MediaFile delivery="progressive" type="video/mp4" width="640" height="360">
+                <![CDATA[https://www.w3schools.com/html/mov_bbb.mp4]]>
+              </MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
