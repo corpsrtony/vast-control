@@ -9,7 +9,7 @@
         <Creative>
           <Linear>
             <!-- ⏱️ DURACIÓN: Ajusta este tiempo según lo que dure tu video (Horas:Minutos:Segundos) -->
-            <Duration>00:00:10</Duration>
+            <Duration>00:00:15</Duration>
             
             <VideoClicks>
               <!-- 🔗 TU ENLACE MONETIZADO (Direct Link o Smartlink de Adsterra) -->
@@ -21,7 +21,7 @@
               <!-- 🎥 TU VIDEO PUBLICITARIO (Puedes cambiar el link de abajo por el tuyo) -->
               <!-- Si usas MP4 deja type="video/mp4". Si usas AVI cambia a type="video/x-msvideo" -->
               <MediaFile delivery="progressive" type="video/mp4" width="640" height="360">
-                <![CDATA[https://www.w3schools.com/html/mov_bbb.mp4]]>
+                <![CDATA[http://up.corpsrtony.art/up/anuncio.mp4]]>
               </MediaFile>
             </MediaFiles>
           </Linear>
